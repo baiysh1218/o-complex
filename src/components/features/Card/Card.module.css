@@ -1,0 +1,6 @@
+.card {
+  background-color: #222222;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}

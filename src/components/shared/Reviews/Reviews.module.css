@@ -1,0 +1,50 @@
+.card {
+  position: relative;
+
+  max-width: 300px;
+  min-width: 300px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.404);
+  min-height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card div h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  position: absolute;
+  top: -20px;
+  border-radius: 5px;
+}
+
+.card div p {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+.card div p b {
+  font-weight: 300;
+}
+
+.card div p:last-child {
+  text-align: start;
+}

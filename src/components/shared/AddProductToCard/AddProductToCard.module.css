@@ -1,0 +1,115 @@
+.product_to_card {
+  background-color: white;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 80%;
+  padding: 20px 50px;
+  border-radius: 5px;
+}
+
+.product_to_card h2 {
+  font-size: 32px;
+}
+
+.product_to_card table {
+  margin-top: 32px;
+  width: 100%;
+}
+
+.product_to_card table thead tr th {
+  margin-bottom: 20px;
+  position: sticky;
+  background-color: white;
+  min-height: 50px;
+  height: 50px;
+  top: 0;
+}
+
+.product_to_card table thead tr th,
+.product_to_card table tbody tr td {
+  padding: 0 40px;
+  margin: auto;
+  vertical-align: center;
+  display: table-cell;
+  overflow: hidden;
+
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.product_to_card table thead tr th {
+  font-size: 23px;
+}
+
+.product_to_card table tbody tr {
+  padding: 10px 0;
+  box-sizing: border-box;
+  min-height: 52px;
+  height: 52px;
+  vertical-align: middle;
+  border-bottom: 2px solid lightgrey;
+}
+
+.title {
+  text-align: start;
+}
+
+.count {
+  text-align: center;
+}
+
+.product_to_card form {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.product_to_card form input {
+  width: 36%;
+  min-height: 40px;
+  background-color: rgba(0, 0, 0, 0.781);
+  padding: 0 20px;
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.product_to_card form button {
+  width: 10%;
+  min-height: 40px;
+  background-color: rgba(0, 0, 0, 0.781);
+  backdrop-filter: blur(4px);
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product_to_card form input {
+  color: white;
+}
+
+.product_to_card form input:focus {
+  outline: none;
+}
+
+.product_to_card form input::placeholder {
+  color: white;
+}
+.label {
+  color: red;
+}
+.label_white {
+  color: white;
+}
